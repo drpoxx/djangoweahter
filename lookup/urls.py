@@ -1,3 +1,4 @@
+# Here are the urls.
 from django.urls import path
 from . import views # The period stands for right here.
 
