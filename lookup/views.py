@@ -4,7 +4,7 @@ def home(request):
     import json
     import requests
     import config_file
-    # Comment
+    # Comment and more
 
     # Create the api request:
     api_request = requests.get(f"https://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=73101&distance=50&API_KEY={api_key}")
