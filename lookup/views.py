@@ -3,9 +3,10 @@ from django.shortcuts import render
 def home(request):
     import json
     import requests
+    import config_file
 
     # Create the api request:
-    api_request = requests.get("https://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=73101&distance=50&API_KEY=35D35F74-7912-40CE-98DB-3DD932F6960C")
+    api_request = requests.get(f"https://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=73101&distance=50&API_KEY={api_key}")
 
     # Error handling of the api request:
     try:
