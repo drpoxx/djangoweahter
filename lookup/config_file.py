@@ -1,2 +1,0 @@
-api_key = "35D35F74-7912-40CE-98DB-3DD932F6960C"
-# Some stuff
