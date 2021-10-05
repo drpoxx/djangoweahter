@@ -3,7 +3,7 @@ from django.shortcuts import render
 def home(request):
     import json
     import requests
-    import config_file
+    from lookup.config_file import api_key
     # Comment and more
 
     # Create the api request:
